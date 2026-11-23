@@ -1,0 +1,178 @@
+[
+  {
+    "uid": "aptnotes-01_aptnotes_report-p2-s8-023bde",
+    "source": "aptnotes",
+    "doc_id": "01_aptnotes_report",
+    "page_number": 2,
+    "sentence_id": 8,
+    "context_before": "However, a supply chain attack discovered in March 2023 added a new dimension to the risk that organizations face.",
+    "sentence_text": "During this attack, multiple versions of a 3CX softphone application were infected with malware.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0001",
+        "name": "Initial Access"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1195",
+        "name": "Supply Chain Compromise"
+      }
+    ],
+    "procedure": "Multiple versions of a 3CX softphone application were infected with malware during a supply chain attack.",
+    "entities": [
+      {
+        "text": "3CX softphone application",
+        "start": 43,
+        "end": 68,
+        "label": "Infrastructure_Indicator"
+      },
+      {
+        "text": "infected with malware",
+        "start": 74,
+        "end": 95,
+        "label": "Action"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-01_aptnotes_report-p2-s12-7f2024",
+    "source": "aptnotes",
+    "doc_id": "01_aptnotes_report",
+    "page_number": 2,
+    "sentence_id": 12,
+    "context_before": "This platform was infected in an earlier North Korean intrusion.",
+    "sentence_text": "As a result, the attackers gained access to 3CX software development systems and infected its products.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0001",
+        "name": "Initial Access"
+      },
+      {
+        "id": "TA0005",
+        "name": "Defense Evasion"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1195",
+        "name": "Supply Chain Compromise"
+      }
+    ],
+    "procedure": "Gain access to 3CX development systems and infect software products.",
+    "entities": [
+      {
+        "text": "the attackers",
+        "start": 13,
+        "end": 26,
+        "label": "ThreatActor"
+      },
+      {
+        "text": "gained access to 3CX software development systems",
+        "start": 27,
+        "end": 76,
+        "label": "Action"
+      },
+      {
+        "text": "infected its products",
+        "start": 81,
+        "end": 102,
+        "label": "Action"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-01_aptnotes_report-p2-s10-e44ed5",
+    "source": "aptnotes",
+    "doc_id": "01_aptnotes_report",
+    "page_number": 2,
+    "sentence_id": 10,
+    "context_before": "The incident is thought to be the first example of a ‘double supply chain’ attack.",
+    "sentence_text": "According to Mandiant, the compromise conducted by North Korean state-sponsored threat actors started when someone at 3CX downloaded an installer for the X_TRADER futures trading platform from Trading Technologies.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0001",
+        "name": "Initial Access"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1195",
+        "name": "Supply Chain Compromise"
+      }
+    ],
+    "procedure": "Download trojanized installer from a trusted vendor as part of a supply chain compromise.",
+    "entities": [
+      {
+        "text": "North Korean state-sponsored threat actors",
+        "start": 51,
+        "end": 93,
+        "label": "ThreatActor"
+      },
+      {
+        "text": "downloaded an installer for the X_TRADER",
+        "start": 122,
+        "end": 162,
+        "label": "Action"
+      },
+      {
+        "text": "Trading Technologies",
+        "start": 193,
+        "end": 213,
+        "label": "Infrastructure_Indicator"
+      },
+      {
+        "text": "test",
+        "start": 104,
+        "end": 115,
+        "label": "MalwareTool"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-01_aptnotes_report-p3-s25-d81096",
+    "source": "aptnotes",
+    "doc_id": "01_aptnotes_report",
+    "page_number": 3,
+    "sentence_id": 25,
+    "context_before": "Infostealer malware likely plays a significant role in the credential-harvesting activity that can lead to ransomware attacks.",
+    "sentence_text": "One of the techniques threat actors use to obtain stolen credentials is infecting victims’ systems with infostealer (also known as stealer) malware.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0006",
+        "name": "Credential Access"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1056",
+        "name": "Input Capture"
+      }
+    ],
+    "procedure": "Infect victim systems with infostealer malware to obtain credentials.",
+    "entities": [
+      {
+        "text": "threat actors",
+        "start": 22,
+        "end": 35,
+        "label": "ThreatActor"
+      },
+      {
+        "text": "infecting victims’ systems with infostealer (also known as stealer) malware",
+        "start": 72,
+        "end": 147,
+        "label": "Action"
+      },
+      {
+        "text": "infostealer",
+        "start": 104,
+        "end": 115,
+        "label": "MalwareTool"
+      }
+    ]
+  }
+]
