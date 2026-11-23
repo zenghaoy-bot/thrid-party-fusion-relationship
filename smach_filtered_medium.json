@@ -1,0 +1,1548 @@
+[
+  {
+    "uid": "aptnotes-01_aptnotes_report-p2-s8-023bde",
+    "source": "aptnotes",
+    "doc_id": "01_aptnotes_report",
+    "page_number": 2,
+    "sentence_id": 8,
+    "context_before": "However, a supply chain attack discovered in March 2023 added a new dimension to the risk that organizations face.",
+    "sentence_text": "During this attack, multiple versions of a 3CX softphone application were infected with malware.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0001",
+        "name": "Initial Access"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1195",
+        "name": "Supply Chain Compromise"
+      }
+    ],
+    "procedure": "Multiple versions of a 3CX softphone application were infected with malware during a supply chain attack.",
+    "entities": [
+      {
+        "text": "3CX softphone application",
+        "start": 43,
+        "end": 68,
+        "label": "Infrastructure_Indicator"
+      },
+      {
+        "text": "infected with malware",
+        "start": 74,
+        "end": 95,
+        "label": "Action"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-01_aptnotes_report-p2-s10-e44ed5",
+    "source": "aptnotes",
+    "doc_id": "01_aptnotes_report",
+    "page_number": 2,
+    "sentence_id": 10,
+    "context_before": "The incident is thought to be the first example of a ‘double supply chain’ attack.",
+    "sentence_text": "According to Mandiant, the compromise conducted by North Korean state-sponsored threat actors started when someone at 3CX downloaded an installer for the X_TRADER futures trading platform from Trading Technologies.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0001",
+        "name": "Initial Access"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1195",
+        "name": "Supply Chain Compromise"
+      }
+    ],
+    "procedure": "Download trojanized installer from a trusted vendor as part of a supply chain compromise.",
+    "entities": [
+      {
+        "text": "North Korean state-sponsored threat actors",
+        "start": 51,
+        "end": 93,
+        "label": "ThreatActor"
+      },
+      {
+        "text": "downloaded an installer for the X_TRADER",
+        "start": 122,
+        "end": 162,
+        "label": "Action"
+      },
+      {
+        "text": "Trading Technologies",
+        "start": 193,
+        "end": 213,
+        "label": "Infrastructure_Indicator"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-01_aptnotes_report-p2-s12-7f2024",
+    "source": "aptnotes",
+    "doc_id": "01_aptnotes_report",
+    "page_number": 2,
+    "sentence_id": 12,
+    "context_before": "This platform was infected in an earlier North Korean intrusion.",
+    "sentence_text": "As a result, the attackers gained access to 3CX software development systems and infected its products.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0001",
+        "name": "Initial Access"
+      },
+      {
+        "id": "TA0005",
+        "name": "Defense Evasion"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1195",
+        "name": "Supply Chain Compromise"
+      }
+    ],
+    "procedure": "Gain access to 3CX development systems and infect software products.",
+    "entities": [
+      {
+        "text": "the attackers",
+        "start": 13,
+        "end": 26,
+        "label": "ThreatActor"
+      },
+      {
+        "text": "gained access to 3CX software development systems",
+        "start": 27,
+        "end": 76,
+        "label": "Action"
+      },
+      {
+        "text": "infected its products",
+        "start": 81,
+        "end": 102,
+        "label": "Action"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-01_aptnotes_report-p3-s25-d81096",
+    "source": "aptnotes",
+    "doc_id": "01_aptnotes_report",
+    "page_number": 3,
+    "sentence_id": 25,
+    "context_before": "Infostealer malware likely plays a significant role in the credential-harvesting activity that can lead to ransomware attacks.",
+    "sentence_text": "One of the techniques threat actors use to obtain stolen credentials is infecting victims’ systems with infostealer (also known as stealer) malware.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0006",
+        "name": "Credential Access"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1056",
+        "name": "Input Capture"
+      }
+    ],
+    "procedure": "Infect victim systems with infostealer malware to obtain credentials.",
+    "entities": [
+      {
+        "text": "threat actors",
+        "start": 22,
+        "end": 35,
+        "label": "ThreatActor"
+      },
+      {
+        "text": "infecting victims’ systems with infostealer (also known as stealer) malware",
+        "start": 72,
+        "end": 147,
+        "label": "Action"
+      },
+      {
+        "text": "infostealer",
+        "start": 104,
+        "end": 115,
+        "label": "MalwareTool"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-01_aptnotes_report-p3-s28-dc7d2a",
+    "source": "aptnotes",
+    "doc_id": "01_aptnotes_report",
+    "page_number": 3,
+    "sentence_id": 28,
+    "context_before": "Infostealers work very quickly on an infected system, often collecting and transmitting data to the threat actor within seconds.",
+    "sentence_text": "Infostealer malware  installed on a computer or device via malicious software downloads or phishing attacks.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0001",
+        "name": "Initial Access"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1566",
+        "name": "Phishing"
+      }
+    ],
+    "procedure": "Install infostealer malware via phishing or malicious downloads.",
+    "entities": [
+      {
+        "text": "installed on a computer or device via malicious software downloads or phishing attacks",
+        "start": 21,
+        "end": 107,
+        "label": "Action"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-01_aptnotes_report-p4-s40-33c69f",
+    "source": "aptnotes",
+    "doc_id": "01_aptnotes_report",
+    "page_number": 4,
+    "sentence_id": 40,
+    "context_before": "AVOID THE CYBER DANGERS THAT LURK OUTSIDE YOUR PERIMETER Sophisticated threat actors are increasingly approaching prospective victims via personal social media.",
+    "sentence_text": "In March, CTU researchers publicly released details about COBALT ILLUSION’s abuse of hijacked and fake social media accounts to contact potential espionage targets.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0001",
+        "name": "Initial Access"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1585",
+        "name": "Establish Accounts"
+      }
+    ],
+    "procedure": "COBALT ILLUSION abused hijacked and fake social media accounts to contact potential espionage targets.",
+    "entities": [
+      {
+        "text": "COBALT ILLUSION",
+        "start": 58,
+        "end": 73,
+        "label": "ThreatActor"
+      },
+      {
+        "text": "abuse of hijacked and fake social media accounts to contact potential espionage targets",
+        "start": 76,
+        "end": 163,
+        "label": "Action"
+      },
+      {
+        "text": "hijacked and fake social media accounts",
+        "start": 85,
+        "end": 124,
+        "label": "Infrastructure_Indicator"
+      },
+      {
+        "text": "contact potential espionage targets",
+        "start": 128,
+        "end": 163,
+        "label": "Action"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-01_aptnotes_report-p4-s44-302d44",
+    "source": "aptnotes",
+    "doc_id": "01_aptnotes_report",
+    "page_number": 4,
+    "sentence_id": 44,
+    "context_before": "In a July 2022 joint address, the heads of the British Security Service (MI5)\nand the U.S. Federal Bureau of Investigation (FBI) warned about Chinese intelligence officers contacting a British aviation expert online who was then “wined and dined” before being tapped for technical information on military aircraft.",
+    "sentence_text": "A U.S. indictment unsealed in October 2018 indicated that Chinese intelligence operatives forged relationships with individuals in sensitive roles via email to steal intellectual property.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0001",
+        "name": "Initial Access"
+      },
+      {
+        "id": "TA0010",
+        "name": "Exfiltration"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1566",
+        "name": "Phishing"
+      },
+      {
+        "id": "T1041",
+        "name": "Exfiltration Over C2 Channel"
+      }
+    ],
+    "procedure": "Forge relationships via email to steal intellectual property.",
+    "entities": [
+      {
+        "text": "Chinese intelligence operatives",
+        "start": 58,
+        "end": 89,
+        "label": "ThreatActor"
+      },
+      {
+        "text": "forged relationships with individuals in sensitive roles via email to steal intellectual property",
+        "start": 90,
+        "end": 187,
+        "label": "Action"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-01_aptnotes_report-p4-s46-e23d90",
+    "source": "aptnotes",
+    "doc_id": "01_aptnotes_report",
+    "page_number": 4,
+    "sentence_id": 46,
+    "context_before": "This relationship can ultimately lead to a compromise that originated beyond the reach of organizational security controls.",
+    "sentence_text": "For example, COBALT ILLUSION’s Twitter personas distributed phishing links via direct messages to steal victims’ login credentials.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0001",
+        "name": "Initial Access"
+      },
+      {
+        "id": "TA0006",
+        "name": "Credential Access"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1566",
+        "name": "Phishing"
+      },
+      {
+        "id": "T1056",
+        "name": "Input Capture"
+      }
+    ],
+    "procedure": "Distribute phishing links via direct messages to steal victims’ login credentials.",
+    "entities": [
+      {
+        "text": "COBALT ILLUSION",
+        "start": 13,
+        "end": 28,
+        "label": "ThreatActor"
+      },
+      {
+        "text": "distributed phishing links via direct messages to steal victims’ login credentials",
+        "start": 48,
+        "end": 130,
+        "label": "Action"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p1-s11-5f193e",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 1,
+    "sentence_id": 11,
+    "context_before": "Other Types Conclusion 1.",
+    "sentence_text": "At first, they attacked North Korea-related research institutes in South Korea before attacking a South Korean energy corporation in 2014.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0001",
+        "name": "Initial Access"
+      }
+    ],
+    "techniques": null,
+    "procedure": "The threat actors attacked research institutes and later a South Korean energy corporation.",
+    "entities": [
+      {
+        "text": "they",
+        "start": 10,
+        "end": 14,
+        "label": "ThreatActor"
+      },
+      {
+        "text": "attacked North Korea-related research institutes in South Korea",
+        "start": 15,
+        "end": 78,
+        "label": "Action"
+      },
+      {
+        "text": "attacking a South Korean energy corporation",
+        "start": 86,
+        "end": 129,
+        "label": "Action"
+      },
+      {
+        "text": "North Korea-related research institutes",
+        "start": 24,
+        "end": 63,
+        "label": "Infrastructure_Indicator"
+      },
+      {
+        "text": "South Korean energy corporation",
+        "start": 98,
+        "end": 129,
+        "label": "Infrastructure_Indicator"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p1-s13-f8268b",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 1,
+    "sentence_id": 13,
+    "context_before": "Cases of attacks against countries other than South Korea have also been identified since 2017.",
+    "sentence_text": "[1] The group usually employs spear phishing attacks against the national defense sector, defense industries, the press, the diplomatic sector, national organizations, and academic fields to steal internal information and technology from organizations.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0001",
+        "name": "Initial Access"
+      },
+      {
+        "id": "TA0010",
+        "name": "Exfiltration"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1566",
+        "name": "Phishing"
+      },
+      {
+        "id": "T1041",
+        "name": "Exfiltration Over C2 Channel"
+      }
+    ],
+    "procedure": "Employ spear phishing attacks to steal internal information from targeted organizations.",
+    "entities": [
+      {
+        "text": "employs spear phishing attacks against the national defense sector, defense industries, the press, the diplomatic sector, national organizations, and academic fields",
+        "start": 22,
+        "end": 187,
+        "label": "Action"
+      },
+      {
+        "text": "to steal internal information and technology from organizations",
+        "start": 188,
+        "end": 251,
+        "label": "Action"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p1-s15-ff144c",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 1,
+    "sentence_id": 15,
+    "context_before": "[2] (This link is only available in Korean.)",
+    "sentence_text": "Even until recently, the Kimsuky group was still mainly employing spear phishing attacks to gain initial access.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0001",
+        "name": "Initial Access"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1566",
+        "name": "Phishing"
+      }
+    ],
+    "procedure": "Employ spear phishing attacks to gain initial access.",
+    "entities": [
+      {
+        "text": "employing spear phishing attacks to gain initial access",
+        "start": 56,
+        "end": 111,
+        "label": "Action"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p1-s17-2f92f1",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 1,
+    "sentence_id": 17,
+    "context_before": "What makes the recent attacks different from the previous cases is that more LNK shortcut-type malware are being used instead of malware in Hangul Word Processor (HWP) or MS Office document format.",
+    "sentence_text": "The threat actor led users to download a compressed file through attachments or download links within spear phishing emails.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0001",
+        "name": "Initial Access"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1566",
+        "name": "Phishing"
+      }
+    ],
+    "procedure": "Lead users to download a compressed file via spear phishing emails.",
+    "entities": [
+      {
+        "text": "led users to download a compressed file through attachments or download links within spear phishing emails",
+        "start": 17,
+        "end": 123,
+        "label": "Action"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p1-s18-17058f",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 1,
+    "sentence_id": 18,
+    "context_before": "The threat actor led users to download a compressed file through attachments or download links within spear phishing emails.",
+    "sentence_text": "When this compressed file is decompressed, it yields a legitimate document file along with a malicious LNK file.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0002",
+        "name": "Execution"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1204",
+        "name": "User Execution"
+      }
+    ],
+    "procedure": "Decompressing the delivered archive reveals a legitimate document alongside a malicious LNK file used for execution.",
+    "entities": [
+      {
+        "text": "compressed file",
+        "start": 10,
+        "end": 25,
+        "label": "Infrastructure_Indicator"
+      },
+      {
+        "text": "decompressed",
+        "start": 29,
+        "end": 41,
+        "label": "Action"
+      },
+      {
+        "text": "malicious LNK file",
+        "start": 93,
+        "end": 111,
+        "label": "MalwareTool"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p1-s20-bb5ee1",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 1,
+    "sentence_id": 20,
+    "context_before": "ASEC is monitoring the Kimsuky group’s attacks using LNK-type malware and is continuously posting identified cases of attacks on the ASEC Blog.",
+    "sentence_text": "The Kimsuky group installs remote control malware to control the infected system after completing such steps to 1/20",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0002",
+        "name": "Execution"
+      },
+      {
+        "id": "TA0008",
+        "name": "Lateral Movement"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1219",
+        "name": "Remote Access Tools"
+      }
+    ],
+    "procedure": "Install remote control malware to control the infected system.",
+    "entities": [
+      {
+        "text": "installs remote control malware to control the infected system",
+        "start": 18,
+        "end": 80,
+        "label": "Action"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p2-s21-9f8700",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 2,
+    "sentence_id": 21,
+    "context_before": "The threat actor uses spear phishing emails to deliver malicious attachments.",
+    "sentence_text": "gain initial access.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0001",
+        "name": "Initial Access"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1566",
+        "name": "Phishing"
+      }
+    ],
+    "procedure": "Gain initial access to the target environment.",
+    "entities": [
+      {
+        "text": "gain initial access",
+        "start": 0,
+        "end": 19,
+        "label": "Action"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p2-s26-e65bfa",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 2,
+    "sentence_id": 26,
+    "context_before": "[7].",
+    "sentence_text": "After gaining control, the threat actor ultimately uses RDP or installs Google’s Chrome Remote Desktop",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0008",
+        "name": "Lateral Movement"
+      },
+      {
+        "id": "TA0002",
+        "name": "Execution"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1021",
+        "name": "Remote Services"
+      }
+    ],
+    "procedure": "Use RDP or install Chrome Remote Desktop for remote access.",
+    "entities": [
+      {
+        "text": "uses RDP or installs Google’s Chrome Remote Desktop",
+        "start": 51,
+        "end": 102,
+        "label": "Action"
+      },
+      {
+        "text": "RDP",
+        "start": 56,
+        "end": 59,
+        "label": "Infrastructure_Indicator"
+      },
+      {
+        "text": "Google’s Chrome Remote Desktop",
+        "start": 72,
+        "end": 102,
+        "label": "Infrastructure_Indicator"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p2-s26-e65bfa",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 2,
+    "sentence_id": 26,
+    "context_before": "[7].",
+    "sentence_text": "After gaining control, the threat actor ultimately uses RDP or installs Google’s Chrome Remote Desktop",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0008",
+        "name": "Lateral Movement"
+      },
+      {
+        "id": "TA0002",
+        "name": "Execution"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1021",
+        "name": "Remote Services"
+      }
+    ],
+    "procedure": "Use RDP.",
+    "entities": [
+      {
+        "text": "uses RDP or installs Google’s Chrome Remote Desktop",
+        "start": 51,
+        "end": 102,
+        "label": "Action"
+      },
+      {
+        "text": "TestAttacker1",
+        "start": 56,
+        "end": 59,
+        "label": "ThreatActor"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p2-s27-ea7f44",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 2,
+    "sentence_id": 27,
+    "context_before": "After gaining control, the threat actor ultimately uses RDP or installs Google’s Chrome Remote Desktop",
+    "sentence_text": "[8] to exfiltrate information from the infected system.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0010",
+        "name": "Exfiltration"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1041",
+        "name": "Exfiltration Over C2 Channel"
+      }
+    ],
+    "procedure": "Exfiltrate information from the infected system.",
+    "entities": [
+      {
+        "text": "exfiltrate information from the infected system",
+        "start": 7,
+        "end": 54,
+        "label": "Action"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p2-s38-a6f674",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 2,
+    "sentence_id": 38,
+    "context_before": "Producing Corporate Promotional Materials",
+    "sentence_text": "By attaching files or including download links in the emails, the threat actor prompted users to download the compressed file and execute the LNK shortcut file inside.\n2/20",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0001",
+        "name": "Initial Access"
+      },
+      {
+        "id": "TA0002",
+        "name": "Execution"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1566",
+        "name": "Phishing"
+      },
+      {
+        "id": "T1204",
+        "name": "User Execution"
+      }
+    ],
+    "procedure": "Attach files or include links in emails to prompt users to download and execute a malicious LNK file.",
+    "entities": [
+      {
+        "text": "attaching files or including download links in the emails",
+        "start": 3,
+        "end": 60,
+        "label": "Action"
+      },
+      {
+        "text": "the threat actor",
+        "start": 62,
+        "end": 78,
+        "label": "ThreatActor"
+      },
+      {
+        "text": "prompted users to download the compressed file and execute the LNK shortcut file inside",
+        "start": 79,
+        "end": 166,
+        "label": "Action"
+      },
+      {
+        "text": "emails",
+        "start": 54,
+        "end": 60,
+        "label": "Infrastructure_Indicator"
+      },
+      {
+        "text": "the compressed file",
+        "start": 106,
+        "end": 125,
+        "label": "Infrastructure_Indicator"
+      },
+      {
+        "text": "LNK shortcut file",
+        "start": 142,
+        "end": 159,
+        "label": "MalwareTool"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p4-s41-8ad5ae",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 4,
+    "sentence_id": 41,
+    "context_before": "LNK Malware The LNK file contains an encrypted compressed file, which in turn holds various malware in script format.\n3/20",
+    "sentence_text": "The BAT and VBS scripts inside can either be used for executing other scripts or contain an Infostealer responsible for collecting and exfiltrating information from the infected system.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0002",
+        "name": "Execution"
+      },
+      {
+        "id": "TA0006",
+        "name": "Credential Access"
+      },
+      {
+        "id": "TA0010",
+        "name": "Exfiltration"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1059",
+        "name": "Command and Scripting Interpreter"
+      },
+      {
+        "id": "T1056",
+        "name": "Input Capture"
+      },
+      {
+        "id": "T1041",
+        "name": "Exfiltration Over C2 Channel"
+      }
+    ],
+    "procedure": "Execute scripts and collect and exfiltrate information from the infected system.",
+    "entities": [
+      {
+        "text": "used for executing other scripts",
+        "start": 45,
+        "end": 77,
+        "label": "Action"
+      },
+      {
+        "text": "collecting and exfiltrating information from the infected system",
+        "start": 120,
+        "end": 184,
+        "label": "Action"
+      },
+      {
+        "text": "Infostealer",
+        "start": 92,
+        "end": 103,
+        "label": "MalwareTool"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p4-s42-825a93",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 4,
+    "sentence_id": 42,
+    "context_before": "The BAT and VBS scripts inside can either be used for executing other scripts or contain an Infostealer responsible for collecting and exfiltrating information from the infected system.",
+    "sentence_text": "There is also a script for maintaining persistence as well as a downloader that downloads and executes additional payloads from an external source.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0003",
+        "name": "Persistence"
+      },
+      {
+        "id": "TA0002",
+        "name": "Execution"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1547",
+        "name": "Boot or Logon Autostart Execution"
+      },
+      {
+        "id": "T1105",
+        "name": "Ingress Tool Transfer"
+      }
+    ],
+    "procedure": "Maintain persistence and download and execute additional payloads from an external source.",
+    "entities": [
+      {
+        "text": "maintaining persistence",
+        "start": 27,
+        "end": 50,
+        "label": "Action"
+      },
+      {
+        "text": "downloads and executes additional payloads from an external source",
+        "start": 80,
+        "end": 146,
+        "label": "Action"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p4-s43-078e33",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 4,
+    "sentence_id": 43,
+    "context_before": "There is also a script for maintaining persistence as well as a downloader that downloads and executes additional payloads from an external source.",
+    "sentence_text": "After a remote control malware is installed, keyloggers and Infostealers are installed to steal internal information and technology from the organizations.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0006",
+        "name": "Credential Access"
+      },
+      {
+        "id": "TA0010",
+        "name": "Exfiltration"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1056",
+        "name": "Input Capture"
+      },
+      {
+        "id": "T1041",
+        "name": "Exfiltration Over C2 Channel"
+      }
+    ],
+    "procedure": "Install keyloggers and infostealers to steal internal information and credentials.",
+    "entities": [
+      {
+        "text": "installed to steal internal information and technology from the organizations",
+        "start": 77,
+        "end": 154,
+        "label": "Action"
+      },
+      {
+        "text": "keyloggers",
+        "start": 45,
+        "end": 55,
+        "label": "MalwareTool"
+      },
+      {
+        "text": "Infostealers",
+        "start": 60,
+        "end": 72,
+        "label": "MalwareTool"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p4-s46-e8dabc",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 4,
+    "sentence_id": 46,
+    "context_before": "XRat (QuasarRAT)...",
+    "sentence_text": "It was confirmed that the Kimsuky group was using XRat from a much earlier point in time.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0002",
+        "name": "Execution"
+      }
+    ],
+    "techniques": null,
+    "procedure": "The Kimsuky group used XRat.",
+    "entities": [
+      {
+        "text": "Kimsuky group",
+        "start": 26,
+        "end": 39,
+        "label": "ThreatActor"
+      },
+      {
+        "text": "using XRat",
+        "start": 44,
+        "end": 54,
+        "label": "Action"
+      },
+      {
+        "text": "XRat",
+        "start": 50,
+        "end": 54,
+        "label": "MalwareTool"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p5-s49-b44b8c",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 5,
+    "sentence_id": 49,
+    "context_before": "This method seems to be for the purpose of bypassing security products.\n4/20",
+    "sentence_text": "The loader reads, decrypts, and injects the htsetting.ini file located in the same path.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0005",
+        "name": "Defense Evasion"
+      },
+      {
+        "id": "TA0002",
+        "name": "Execution"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1055",
+        "name": "Process Injection"
+      }
+    ],
+    "procedure": "Read, decrypt, and inject htsetting.ini file.",
+    "entities": [
+      {
+        "text": "reads, decrypts, and injects the htsetting.ini file",
+        "start": 11,
+        "end": 62,
+        "label": "Action"
+      },
+      {
+        "text": "htsetting.ini",
+        "start": 44,
+        "end": 57,
+        "label": "Infrastructure_Indicator"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p5-s50-c26248",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 5,
+    "sentence_id": 50,
+    "context_before": "The loader reads, decrypts, and injects the htsetting.ini file located in the same path.",
+    "sentence_text": "All ht.dll loaders identified so far were packed with VMP, and the decrypted binary contained the following strings used by the threat actor.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0005",
+        "name": "Defense Evasion"
+      }
+    ],
+    "techniques": null,
+    "procedure": "The decrypted binary contained strings used by the threat actor.",
+    "entities": [
+      {
+        "text": "ht.dll loaders",
+        "start": 4,
+        "end": 18,
+        "label": "MalwareTool"
+      },
+      {
+        "text": "contained",
+        "start": 84,
+        "end": 93,
+        "label": "Action"
+      },
+      {
+        "text": "strings used by the threat actor",
+        "start": 108,
+        "end": 140,
+        "label": "Action"
+      },
+      {
+        "text": "threat actor",
+        "start": 128,
+        "end": 140,
+        "label": "ThreatActor"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p5-s51-93d112",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 5,
+    "sentence_id": 51,
+    "context_before": "All ht.dll loaders identified so far were packed with VMP, and the decrypted binary contained the following strings used by the threat actor.",
+    "sentence_text": "Ht.dll references this information to read and decrypt the encrypted file before injecting it into a legitimate process.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0005",
+        "name": "Defense Evasion"
+      },
+      {
+        "id": "TA0002",
+        "name": "Execution"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1055",
+        "name": "Process Injection"
+      }
+    ],
+    "procedure": "Read and decrypt encrypted file and inject it into a legitimate process.",
+    "entities": [
+      {
+        "text": "read and decrypt the encrypted file",
+        "start": 38,
+        "end": 73,
+        "label": "Action"
+      },
+      {
+        "text": "injecting it into a legitimate process",
+        "start": 81,
+        "end": 119,
+        "label": "Action"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p5-s53-259b7a",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 5,
+    "sentence_id": 53,
+    "context_before": "The payload that is injected...",
+    "sentence_text": "Amadey\nThe Kimsuky group also used Amadey Bot in their attacks.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0002",
+        "name": "Execution"
+      }
+    ],
+    "techniques": null,
+    "procedure": "The Kimsuky group used Amadey Bot in attacks.",
+    "entities": [
+      {
+        "text": "Kimsuky group",
+        "start": 11,
+        "end": 24,
+        "label": "ThreatActor"
+      },
+      {
+        "text": "used Amadey Bot",
+        "start": 30,
+        "end": 45,
+        "label": "Action"
+      },
+      {
+        "text": "Amadey Bot",
+        "start": 35,
+        "end": 45,
+        "label": "MalwareTool"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p5-s56-a1f036",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 5,
+    "sentence_id": 56,
+    "context_before": "It is a downloader that installs additional malware from the C&C server.",
+    "sentence_text": " It also transmit basic information about the system or exfiltrate screenshots and account credentials saved in web browsers and email clients depending on the settings or whether certain plugins are installed.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0009",
+        "name": "Collection"
+      },
+      {
+        "id": "TA0010",
+        "name": "Exfiltration"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1005",
+        "name": "Data from Local System"
+      },
+      {
+        "id": "T1113",
+        "name": "Screen Capture"
+      },
+      {
+        "id": "T1555",
+        "name": "Credentials from Password Stores"
+      }
+    ],
+    "procedure": "Transmit system information and exfiltrate screenshots and saved account credentials.",
+    "entities": [
+      {
+        "text": "it",
+        "start": 15,
+        "end": 17,
+        "label": "MalwareTool"
+      },
+      {
+        "text": "transmit basic information about the system",
+        "start": 9,
+        "end": 52,
+        "label": "Action"
+      },
+      {
+        "text": "exfiltrate screenshots and account credentials saved in web browsers and email clients",
+        "start": 56,
+        "end": 142,
+        "label": "Action"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p5-s57-ae3942",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 5,
+    "sentence_id": 57,
+    "context_before": "Besides such downloader features...",
+    "sentence_text": "The Kimsuky group uses a dropper to install Amadey.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0002",
+        "name": "Execution"
+      }
+    ],
+    "techniques": null,
+    "procedure": "The Kimsuky group uses a dropper to install Amadey.",
+    "entities": [
+      {
+        "text": "Kimsuky group",
+        "start": 4,
+        "end": 17,
+        "label": "ThreatActor"
+      },
+      {
+        "text": "uses a dropper to install Amadey",
+        "start": 18,
+        "end": 50,
+        "label": "Action"
+      },
+      {
+        "text": "Amadey",
+        "start": 44,
+        "end": 50,
+        "label": "MalwareTool"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p6-s60-9ea5ed",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 6,
+    "sentence_id": 60,
+    "context_before": "5/20",
+    "sentence_text": "Afterward, it creates the path “%ALLUSERSPROFILE%\\Startup” and registers it to the Startup folder.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0003",
+        "name": "Persistence"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1547.001",
+        "name": "Registry Run Keys / Startup Folder"
+      }
+    ],
+    "procedure": "Create Startup folder path and register it for persistence.",
+    "entities": [
+      {
+        "text": "creates the path “%ALLUSERSPROFILE%\\Startup”",
+        "start": 14,
+        "end": 58,
+        "label": "Action"
+      },
+      {
+        "text": "registers it to the Startup folder",
+        "start": 63,
+        "end": 97,
+        "label": "Action"
+      },
+      {
+        "text": "%ALLUSERSPROFILE%\\Startup",
+        "start": 32,
+        "end": 57,
+        "label": "Infrastructure_Indicator"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p6-s61-9d79f1",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 6,
+    "sentence_id": 61,
+    "context_before": "Afterward, it creates the path...",
+    "sentence_text": "Here, a script named “svc.vbs” is created, which is responsible for maintaining persistence.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0003",
+        "name": "Persistence"
+      }
+    ],
+    "techniques": null,
+    "procedure": "A script named svc.vbs is created to maintain persistence.",
+    "entities": [
+      {
+        "text": "script named “svc.vbs”",
+        "start": 8,
+        "end": 30,
+        "label": "MalwareTool"
+      },
+      {
+        "text": "is created",
+        "start": 31,
+        "end": 41,
+        "label": "Action"
+      },
+      {
+        "text": "maintaining persistence",
+        "start": 68,
+        "end": 91,
+        "label": "Action"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p6-s62-eea03c",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 6,
+    "sentence_id": 62,
+    "context_before": "Here, a script named “svc.vbs” is created, which is responsible for maintaining persistence.",
+    "sentence_text": "Amadey, which is loaded and executed through the Rundll32.exe process, goes through svchost.exe before being injected into the iexplore.exe process and run.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0002",
+        "name": "Execution"
+      },
+      {
+        "id": "TA0005",
+        "name": "Defense Evasion"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1218.011",
+        "name": "Rundll32"
+      },
+      {
+        "id": "T1055",
+        "name": "Process Injection"
+      }
+    ],
+    "procedure": "Load and execute Amadey via rundll32, then inject it into iexplore.exe.",
+    "entities": [
+      {
+        "text": "loaded and executed through the Rundll32.exe process",
+        "start": 17,
+        "end": 69,
+        "label": "Action"
+      },
+      {
+        "text": "injected into the iexplore.exe process",
+        "start": 109,
+        "end": 147,
+        "label": "Action"
+      },
+      {
+        "text": "Amadey",
+        "start": 0,
+        "end": 6,
+        "label": "MalwareTool"
+      },
+      {
+        "text": "Rundll32.exe",
+        "start": 49,
+        "end": 61,
+        "label": "Infrastructure_Indicator"
+      },
+      {
+        "text": "svchost.exe",
+        "start": 84,
+        "end": 95,
+        "label": "Infrastructure_Indicator"
+      },
+      {
+        "text": "iexplore.exe",
+        "start": 127,
+        "end": 139,
+        "label": "Infrastructure_Indicator"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p7-s67-05b061",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 7,
+    "sentence_id": 67,
+    "context_before": "3.3.",
+    "sentence_text": "Latest Attack Cases It was recently identified that the Kimsuky group has been using AutoIt to create malware.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0005",
+        "name": "Defense Evasion"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1027",
+        "name": "Obfuscated Files or Information"
+      }
+    ],
+    "procedure": "Use AutoIt to create malware.",
+    "entities": [
+      {
+        "text": "has been using AutoIt to create malware",
+        "start": 70,
+        "end": 109,
+        "label": "Action"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p7-s68-6210fd",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 7,
+    "sentence_id": 68,
+    "context_before": "Latest Attack Cases It was recently identified that the Kimsuky group has been using AutoIt to create malware.",
+    "sentence_text": "The Kimsuky group ported Amadey which had been used from the past to AutoIt and also used it for the purpose of injecting RftRAT.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0005",
+        "name": "Defense Evasion"
+      },
+      {
+        "id": "TA0002",
+        "name": "Execution"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1055",
+        "name": "Process Injection"
+      }
+    ],
+    "procedure": "Port Amadey to AutoIt and use it to inject RftRAT.",
+    "entities": [
+      {
+        "text": "ported Amadey which had been used from the past to AutoIt",
+        "start": 18,
+        "end": 75,
+        "label": "Action"
+      },
+      {
+        "text": "used it for the purpose of injecting RftRAT",
+        "start": 85,
+        "end": 128,
+        "label": "Action"
+      },
+      {
+        "text": "Amadey",
+        "start": 25,
+        "end": 31,
+        "label": "MalwareTool"
+      },
+      {
+        "text": "RftRAT",
+        "start": 122,
+        "end": 128,
+        "label": "MalwareTool"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p7-s73-76314f",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 7,
+    "sentence_id": 73,
+    "context_before": "AUTOIT AMADEY As covered above, Amadey is one of the malware that has been constantly used by the Kimsuky group.",
+    "sentence_text": "The version of Amadey used by the Kimsuky group is different from the type used by other threat actors: Kimsuky group’s Amadey uses Domain Generation Algorithms 7/20",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0011",
+        "name": "Command and Control"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1568",
+        "name": "Dynamic Resolution"
+      }
+    ],
+    "procedure": "Use Domain Generation Algorithms for C2 communication.",
+    "entities": [
+      {
+        "text": "uses Domain Generation Algorithms",
+        "start": 127,
+        "end": 160,
+        "label": "Action"
+      },
+      {
+        "text": "Amadey",
+        "start": 15,
+        "end": 21,
+        "label": "MalwareTool"
+      }
+    ]
+  },
+  {
+    "uid": "aptnotes-02_aptnotes_report-p8-s75-d4adfc",
+    "source": "aptnotes",
+    "doc_id": "02_aptnotes_report",
+    "page_number": 8,
+    "sentence_id": 75,
+    "context_before": "The recently identified Amadey is ported into the AutoIt language and has the same format as the types identified in the past attack cases.",
+    "sentence_text": "The threat actor installed both a legitimate AutoIt executable file and a compiled AutoIt script in the infected system.",
+    "relevant": "yes",
+    "tactic": [
+      {
+        "id": "TA0002",
+        "name": "Execution"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1204",
+        "name": "User Execution"
+      }
+    ],
+    "procedure": "Install AutoIt executable file and compiled AutoIt script in the infected system.",
+    "entities": [
+      {
+        "text": "installed both a legitimate AutoIt executable file and a compiled AutoIt script in the infected system",
+        "start": 17,
+        "end": 119,
+        "label": "Action"
+      }
+    ]
+  }
+]
